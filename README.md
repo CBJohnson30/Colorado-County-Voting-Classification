@@ -13,3 +13,6 @@
 - I did not have a target lable to be able to train a model on I used a unsupervised learning model. More specificly a K-Means model. I chose those model because I am able set the number to clusters it will look for to 3. One for each Republican, Democrat or a swing counties. Then I will have to do a little plotting to determine what the numerical value for each cluster means.
 
 ## Results:
+
+- I was able to classify each county into one of 3 labels. Below is a map of Colorado colored according to its label. 
+
