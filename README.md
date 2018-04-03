@@ -14,5 +14,10 @@
 
 ## Results:
 
-- I was able to classify each county into one of 3 labels. Below is a map of Colorado colored according to its label. 
+- I was able to classify each county into one of 3 labels. Below is a map of Colorado colored according to its label.
+In the [IPython Notebook](https://github.com/CBJohnson30/Colorado-County-Voting-Classification/blob/master/historical_voter_patterns.ipynb) there are more graphs that more closely look at each election indivudialy. 
+
+![Colorado Map](https://github.com/CBJohnson30/Colorado-County-Voting-Classification/blob/master/Images/County.png)
+
+
 
