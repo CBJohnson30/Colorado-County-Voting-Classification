@@ -2,7 +2,7 @@
 
 ## Goal:
 
-- To classify counties in Colorado as Republican, Democrat or a swing county. 
+- To classify counties in Colorado based on their voting history from 2012 to 2016.
 
 ## Data:
 
@@ -10,14 +10,13 @@
 
 ## Modeling
 
-- I did not have a target lable to be able to train a model on I used a unsupervised learning model. More specificly a K-Means model. I chose those model because I am able set the number to clusters it will look for to 3. One for each Republican, Democrat or a swing counties. Then I will have to do a little plotting to determine what the numerical value for each cluster means.
+- I did not have a target lable to be able to train a model on I used a unsupervised learning model. I tested different KMeans and DBSCAN models. I ended up choosing a KMeans model with K=6 for my best results. 
 
 ## Results:
 
-- I was able to classify each county into one of 3 labels. Below is a map of Colorado colored according to its label.
-In the [IPython Notebook](https://github.com/CBJohnson30/Colorado-County-Voting-Classification/blob/master/historical_voter_patterns.ipynb) there are more graphs that more closely look at each election indivudialy. 
+- I choose the KMeans with K=6 because I was able to isolate the "swing" counties in the middle of the voting patterens. Below is the map of Colorado with each counties labels. You can view the rest of the graphs for each race at my [Tableau Public Profile](https://public.tableau.com/profile/cbjohnson30#!/vizhome/County_Vote_History/Countywith6)
 
-![Colorado Map](https://github.com/CBJohnson30/Colorado-County-Voting-Classification/blob/master/Images/County.png)
+![Colorado Map](https://github.com/CBJohnson30/Colorado-County-Voting-Classification/blob/master/Images/County%20with%206.png)
 
 
 
